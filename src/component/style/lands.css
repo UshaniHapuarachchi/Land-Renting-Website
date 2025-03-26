@@ -1,0 +1,230 @@
+.advertisement img{
+    position: relative;
+    top: 20px;
+    height: 250px;
+    width: 900px;
+}
+.card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+.sideAd img{
+    position: absolute;
+    top: 60px;
+    height: 450px;
+    width: 120px;
+}
+
+.full-container{
+    position: relative;
+    background-color: rgba(243, 243, 243, 0.645);
+    top: 50px;
+    left: 310px;
+    height: 1000px;
+    width: 900px;
+}
+
+.land-sidebar-container{
+    position: relative;
+    border: 1px solid rgb(203, 203, 203);
+    width: 250px;
+    height: 713px;
+    left: 0px;
+}
+.land-sidebar-container h2{
+    position: relative;
+    top: 35px;
+}
+
+.land-sidebar-container h3{
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+}
+
+
+.location select,
+.size select,
+.type select,
+.duration select {
+position: relative;
+top: 60px;
+  background: transparent;
+  width: 190px;
+  height: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Blinker, 'sans serif';
+  
+}
+
+.land-btn{
+    position: absolute;
+    top: 430px;
+    font-size: 14px;
+    left: 75px;
+    background-color: #013504;
+    color: rgba(255, 255, 255, 0.79);
+    font-weight: bold;
+    padding: 6px 20px;
+    margin: 0px 0;
+    border-radius: 18px ;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .land-btn:hover {
+    opacity: 0.8;
+  }
+
+
+
+.land-category{
+    position: absolute;
+    top: 535px;
+    left: 70px;
+    font-weight: bold;
+}
+
+.land-category label{
+   
+    margin-left: 15px;
+}
+
+.search-container{
+    position: absolute;
+    top: 45px;
+}
+
+.search-bar input{
+    position: absolute;
+    left: 320px;
+    width: 500px;
+    height: 30px;
+    border: 3px solid rgb(4, 132, 26);
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.search-icon{
+    position: absolute;
+    top: 2px;
+    left: 340px;
+    width: 20px;
+    height: 25px;
+    color: #006003;
+}
+
+.land-container{
+    position: absolute;
+    top: 110px;
+    left: 320px;
+    width: 500px;
+    height: 140px;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.land-pic img{
+    position: absolute;
+    left: 20px;
+    width: 140px;
+    height: 100px;
+}
+
+.land-container h{
+    position: absolute;
+    color: black;
+    top: 15px;
+    left: 220px;
+    font-weight: bold;
+}
+
+.land-container p{
+    position: absolute;
+    color: black;
+    top: 40px;
+    left: 220px;
+}
+
+.land-container p1{
+    position: absolute;
+    color: black;
+    top: 65px;
+    left: 220px;
+}
+
+.land-container h1{
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    font-size: 16px;
+    color: #033e05;
+    font-weight: bold;
+}
+
+.land-container h2{
+    position: absolute;
+    top: 80px;
+    left: 420px;
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+}
+
+.post-land-btn{
+    position: relative;
+    bottom: 718px;
+    font-size: 14px;
+    left: 970px;
+    background-color: #bb0707;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 6px 20px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    height: 35px;
+    
+  }
+  
+  .post-land-btn:hover {
+    opacity: 0.8;
+  }
