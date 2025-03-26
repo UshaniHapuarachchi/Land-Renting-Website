@@ -1,0 +1,106 @@
+.background-image img{
+    position: relative;
+    filter: brightness(50%);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 1519px;
+    height: 713px;
+    }
+
+    .SignUp-form{
+        position: absolute;
+        top: 110px;
+        left: 400px;
+        height: 600px;
+        max-width: 650px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 28px;
+        margin: 0 28px;
+        border-radius: 10px;
+        
+    }
+    .SignUp-form h1{
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 6px;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        border-bottom: solid 1px white;
+    }
+
+      .SignUp-form button[type="SignUp"] {
+      position: absolute;
+      top: 440px;
+      font-size: 16px;
+      left: 55px;
+      background-color: #085a4fac;
+      color: white;
+      font-weight: bold;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 540px;
+      }
+
+      .main-user-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    
+    
+    
+    .user-input-box{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        padding-bottom: 15px;
+    }
+
+    .user-input-box label{
+        width: 95%;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 5px 0;
+    }
+    
+    .SignUp-form input {
+        height: 40px;
+        width: 95%;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid grey;
+        padding: 0 10px;
+    }
+
+      
+    .cb-title{
+        color:white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .cb-details-box label {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 18px; 
+        color: #ffffff;
+      }
+      .cb-details-box input[type="radio"] {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+      .cb-details-box label input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      .cb-details-box label:last-of-type {
+        margin-bottom: 0;
+      }
